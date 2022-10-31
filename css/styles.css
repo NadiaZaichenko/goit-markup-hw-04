@@ -143,8 +143,7 @@ body {
     background-size: 1600px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
-    background-image: url(../images/bcg.png);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bcg.png);
 }
 .main-container {
     display: flex;
