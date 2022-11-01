@@ -327,6 +327,9 @@ body {
 .social-link:hover > .social-icon {
     fill: #FFFFFF;
 }
+.social-link:focus > .social-icon {
+    fill: #FFFFFF;
+}
 .section-menu{
     margin:auto;
     padding-top:94px;
@@ -460,30 +463,39 @@ body {
     margin: auto;
     gap: 30px;
     padding-left: 0;
+    justify-content: center;
+    align-items: center;
 }
 .client-item {
+    display: flex;
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
+    justify-content: center;
+    align-items: center;
 }
-.client-item:hover,
-.client-item:focus {
+.client-link:hover,
+.client-link:focus {
     border: 1px solid #2196F3;
 }
 .client-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 16px 32px;
-}
-.client-item:hover .client-icon{
-    fill: #2196F3;
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
 }
 .client-icon {
     fill: #AFB1B8;
 }
-
+.client-link:hover .client-icon{
+    fill: #2196F3;
+}
+.client-link:focus .client-icon{
+    fill: #2196F3;
+}
 
 /*FOOTER*/
 .footer {
@@ -544,6 +556,14 @@ body {
 .attention {
     color: #FFFFFF;
     margin-bottom: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
 }
 .social-link-footer {
     display: flex;
